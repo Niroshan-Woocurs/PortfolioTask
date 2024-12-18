@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+     <!-- Font Awesome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            
+            <div class="nav-container">
+                <a href="#" class="logo">Portfoliooo</a>
+                <button class="nav-toggle" aria-label="Open Navigation">&#9776;</button>
+                <ul class="nav-menu">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about-us">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-us">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-container">
+            <!-- Left Side: Text -->
+            <div class="hero-text">
+                <h1>I'm Web Developer!</h1>
+                <h2 style="color: whitesmoke;">L.N. P. Noyal Niroshan</h2>
+    
+                <p>
+                    I am a passionate web developer with a strong focus on creating seamless, user-friendly websites. My expertise spans front-end and back-end development, UI/UX design, and digital marketing.
+                </p>
+                <!-- Buttons -->
+                <a href="#projects" class="hero-btn">View My Work</a>
+                <a href="images/cv.pdf" class="hero-btn cv-btn" download="Noyal_Niroshan_CV.pdf">Download My CV</a>
+            </div>
+    
+            <!-- Right Side: Image -->
+            <div class="hero-image">
+                <img src="images/p1.png" alt="Web Developer">
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="about-us" class="about-us">
+        <div class="container">
+            <h2>About Me!</h2>
+            
+            <div class="about-content">
+                <!-- Profile Picture on the Left -->
+                <div class="bio">
+                    <img src="images/p2.png" alt="Profile Picture" class="profile-img">
+                </div>
+                <!-- About Us Title and Content on the Right -->
+                <div class="bio-text">
+                    <p>
+                        I am a dynamic and meticulous junior web developer with a strong command of front-end technologies and a growing expertise in back-end development. Eager to take on new challenges, I focus on continuously enhancing my coding skills to create exceptional user experiences.
+
+                    </p>
+                    <br>
+                    <p>
+                        I am passionate about leveraging cutting-edge technologies to deliver innovative and high-quality solutions. My experience includes working with Visual Studio, VS Code, XAMPP, and technologies like JS, PHP, SQL, Bootstrap,Html,Css,Laravel,Asp.Net MVC,SpringBoot,canva, and WordPress.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+
+    <!-- Education Qualifications Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education Qualifications</h2>
+            <div class="education-grid">
+                <!-- Qualification 1: Advanced Level -->
+                <article class="education-item fade-in">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="education-details">
+                        <h3>Advanced Level</h3>
+                        <p>J/Nelliady Central College</p>
+                        <ul>
+                            <li>Specialized in Commerce Stream</li>
+                            <li>Completed in 2019</li>
+                        </ul>
+                    </div>
+                </article>
+                
+                <!-- Qualification 2: Diploma in English -->
+                <article class="education-item fade-in">
+                    <i class="fas fa-language"></i>
+                    <div class="education-details">
+                        <h3>Diploma in English</h3>
+                        <p>British College of Education - 2020</p>
+                        <ul>
+                            <li>Improved communication and writing skills</li>
+                            <li>Developed fluency in professional English</li>
+                        </ul>
+                    </div>
+                </article>
+                
+                <!-- Qualification 3: Higher National Diploma in IT -->
+                <article class="education-item fade-in">
+                    <i class="fas fa-laptop-code"></i>
+                    <div class="education-details">
+                        <h3>HND in IT</h3>
+                        <p>SLIATE - 2021</p>
+                        <ul>
+                            <li>Focused on software development</li>
+                            <li>Learned networking, database management, and web technologies</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="projects-title">My Projects</h2>
+    
+        <div class="project-cards">
+            <article class="project-card">
+                <figure>
+                    <img src="images/s1.png" alt="Waste Management System">
+                    <figcaption>
+                        <h3 class="project-heading">Waste Management System</h3>
+                        <p class="project-description">
+                            Developed a waste management system using Visual Studio, SQL Server, and MVC architecture...
+                        </p>
+                        <button class="read-more" data-content="Developed a waste management system using Visual Studio, SQL Server, and MVC architecture to optimize the collection, processing, and disposal of waste. The system promotes efficient resource utilization and supports environmental sustainability by streamlining workflows, managing data effectively, and ensuring compliance with environmental standards.">Read More</button>
+                    </figcaption>
+                </figure>
+                <a href="https://github.com/NoyalNiroshan/WasteManagementSystem.git" class="btn">View on GitHub</a>
+            </article>
+    
+            <article class="project-card">
+                <figure>
+                    <img src="images/s2.png" alt="E-Commerce Site">
+                    <figcaption>
+                        <h3 class="project-heading">Electra Mart E-Commerce Site</h3>
+                        <p class="project-description">
+                            Developed an e-commerce site using Laravel, Filament Admin Panel, and Livewire 3...
+                        </p>
+                        <button class="read-more" data-content="Developed an e-commerce site using Laravel, Filament Admin Panel, and Livewire 3 to create a dynamic and user-friendly online shopping experience. The platform features a seamless product management system, secure payment integrations, and a responsive design for both customers and administrators. The use of Filament Admin Panel ensures an intuitive backend, while Livewire 3 enhances real-time interactions.">Read More</button>
+                    </figcaption>
+                </figure>
+                <a href="https://github.com/NoyalNiroshan/ECommerceDemo.git" class="btn">View on GitHub</a>
+            </article>
+    
+            <article class="project-card">
+                <figure>
+                    <img src="images/s3.png" alt="Point Of Sale">
+                    <figcaption>
+                        <h3 class="project-heading">Point of Sale (POS)System</h3>
+                        <p class="project-description">
+                            Developed a comprehensive POS system using Filament Admin Panel and Livewire...
+                        </p>
+                        <button class="read-more" data-content="Developed a comprehensive Point of Sale (POS) system using Filament Admin Panel and Livewire to provide an efficient and interactive sales management experience. The system features real-time updates and an intuitive interface for managing sales, inventory, and transactions. Using Livewire for dynamic views, the system enables seamless interaction, ensuring smooth operations.">Read More</button>
+                    </figcaption>
+                </figure>
+                <a href="https://github.com/NoyalNiroshan/pos_inventory.git" class="btn">View on GitHub</a>
+            </article>
+        </div>
+    </section>
+    
+    <!-- Modal for Read More Content -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+    
+    <div class="slider-container">
+        <h2 class="slider-title">Technologies I Work With</h2>
+        <div class="slider">
+          <div class="slide-track">
+            <div class="slide">
+              <img src="images/l0.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+              <img src="images/l1.png" height="200" width="250" alt="" />
+            </div>
+            <div class="slide">
+              <img src="images/l3.png" height="200" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="images/l4.png" height="300" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="images/l5.png" height="300" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="images/l6.png" height="300" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="images/l7.png" height="300" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="images/l8.png" height="300" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="images/l9.png" height="300" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="images/l10.png" height="300" width="100" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    
+
+
+    <section id="contact-us" class="contact-us">
+        <div class="contact-container">
+            <!-- Left side: Google Map -->
+            <article class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31465.0376726664!2d80.007827034073!3d9.669956936815614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afe53fd7be66aa5%3A0xc7da0d9203baf512!2sJaffna!5e0!3m2!1sen!2slk!4v1734432328962!5m2!1sen!2slk"
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </article>
+    
+            <!-- Right side: Contact Form -->
+            <article class="contact-form-container">
+                <h2>Contact Me!</h2>
+                <form action="your-form-handler.php" method="POST" id="contact-form" aria-labelledby="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Your Company. All rights reserved To Noyal Niroshan.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/1BM4XJW5yJ/?mibextid=wwXIfr" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://github.com/NoyalNiroshan" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/noyal-niroshan-lnpn-85a07630a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/noyal.niroshan?igsh=MXBtZHQxaHR2dmFsNA%3D%3D&utm_source=qr" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+    <script>
+        // Get the navigation menu and hamburger toggle button
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        // Toggle the navigation menu when the hamburger button is clicked
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+       
+
+   document.addEventListener("DOMContentLoaded", () => {
+    const modal = document.getElementById("modal");
+    const modalText = document.getElementById("modal-text");
+    const closeModal = document.querySelector(".close");
+
+    document.querySelectorAll(".read-more").forEach(button => {
+        button.addEventListener("click", () => {
+            modalText.textContent = button.dataset.content;
+            modal.style.display = "block";
+        });
+    });
+
+    closeModal.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+
+    window.addEventListener("click", (e) => {
+        if (e.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+});
+document.addEventListener("DOMContentLoaded", function () {
+    const track = document.querySelector(".carousel-track");
+    const slides = document.querySelectorAll(".carousel-slide");
+    const nextButton = document.querySelector(".carousel-button.next");
+    const prevButton = document.querySelector(".carousel-button.prev");
+    let currentIndex = 0;
+    const totalSlides = slides.length;
+
+    // Auto slide every 3 seconds
+    let autoSlide = setInterval(() => {
+        moveToNextSlide();
+    }, 9000);
+
+    function moveToNextSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        updateCarousel();
+    }
+
+    function moveToPrevSlide() {
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        updateCarousel();
+    }
+
+    function updateCarousel() {
+        const offset = -currentIndex * (slides[0].offsetWidth + 15); // Adjust for the gap
+        track.style.transition = "transform 0.5s ease-in-out";
+        track.style.transform = `translateX(${offset}px)`;
+
+        // If we've reached the last slide, reset the track to the first slide without showing a jump
+        if (currentIndex === totalSlides - 1) {
+            setTimeout(() => {
+                track.style.transition = "none"; // Disable transition for instant reset
+                track.style.transform = "translateX(0)"; // Jump to the first slide
+                currentIndex = 0; // Reset the index
+            }, 500); // Delay the reset for the duration of the transition
+        } else if (currentIndex === 0) {
+            track.style.transition = "none"; // Disable transition for instant reset when going backward
+        }
+    }
+
+    nextButton.addEventListener("click", moveToNextSlide);
+    prevButton.addEventListener("click", moveToPrevSlide);
+
+    // Restart the auto-scrolling loop when a slide is manually moved (optional)
+    nextButton.addEventListener("click", function () {
+        clearInterval(autoSlide);
+        autoSlide = setInterval(() => {
+            moveToNextSlide();
+        }, 3000);
+    });
+
+    prevButton.addEventListener("click", function () {
+        clearInterval(autoSlide);
+        autoSlide = setInterval(() => {
+            moveToNextSlide();
+        }, 3000);
+    });
+});
+
+
+
+    </script>
+</body>
+</html>
