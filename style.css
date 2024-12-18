@@ -273,7 +273,7 @@ header {
     .hero-container {
         flex-direction: column;
         text-align: center;
-        margin-top: 6rem;
+        margin-top: 9rem;
     }
 
     .hero-text {
